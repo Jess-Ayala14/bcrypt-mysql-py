@@ -1,0 +1,17 @@
+{% extends "navbar.html" %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<article class="content">
+    <h1>Página de Inicio</h1>
+    <p class="message">Bienvenido a nuestra aplicación web.</p>
+
+    <!-- Buttons for Signup and Login -->
+    <!-- int the Same line-->
+    <div class="content-action">
+        <a href="/signup" class="btn singup">Registrarse</a>
+        <a href="/login" class="btn login">Iniciar Sesión</a>
+    </div>
+</article>
+{% endblock %}
