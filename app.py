@@ -48,7 +48,7 @@ def signup():
         lastname = request.form.get('lastname','')
         email = request.form['email']
         password = request.form['password']
-        confirm_password = request.form['confirm_password']
+        confirm_password = request.form['cpassword']
 
         # 1. Validación de Confirmación
         if password != confirm_password:
